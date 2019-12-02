@@ -2,9 +2,7 @@ package com.haochang.commons.report.excel;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by lcm on 16/4/22.
- */
+
 class ExcelFiledInfo implements Comparable<ExcelFiledInfo> {
 	private final Field field;
 	private final String cellName;

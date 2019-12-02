@@ -3,7 +3,6 @@ import org.springframework.context.ApplicationEvent;
 
 /**
  * WebHooks事件
- * @author L.cm
  */
 public class WebHooksEvent extends ApplicationEvent {
 

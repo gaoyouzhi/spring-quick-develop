@@ -10,7 +10,6 @@ import java.lang.annotation.Target;
  * 
  * 用于映射实体类和Excel某列名称
  *
- * @author L.cm
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

@@ -2,7 +2,6 @@ package com.haochang.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.haochang.commons.utils.JsonUtils;
-import org.hibernate.validator.constraints.NotBlank;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -20,7 +19,6 @@ public class Resource implements Serializable {
 	private Long id;
 
 	/** 资源名称 */
-	@NotBlank
 	private String name;
 
 	/** 资源路径 */

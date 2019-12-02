@@ -31,8 +31,6 @@ import com.haochang.commons.utils.URLUtils;
 
 /**
  * @description：基础 controller
- * @author：zhixuan.wang
- * @date：2015/10/1 14:51
  */
 public abstract class BaseController {
     // 控制器本来就是单例，这样似乎更加合理

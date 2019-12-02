@@ -16,7 +16,6 @@ import com.haochang.event.WebHooksEvent;
 
 /**
  * WebHooks 自动更新部署
- * Created by L.cm on 2016/9/23.
  */
 @Controller
 @SuppressWarnings("unchecked")
@@ -24,7 +23,6 @@ public class WebHooksController extends BaseController {
     /**
      * git@osc WebHooks 设置
      * WIKI: http://git.oschina.net/oschina/git-osc/wikis/WebHook-%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B
-     * @param hook json字符串
      * @return jsonBean
      */
     @PostMapping("webhooks")

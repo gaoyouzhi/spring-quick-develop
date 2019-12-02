@@ -12,8 +12,6 @@ import com.haochang.commons.utils.Charsets;
 /**
  * Redis key序列化，支持更多基本类型
  * 
- * @author L.cm
- *
  */
 public class RedisKeySerializer implements RedisSerializer<Object> {
 

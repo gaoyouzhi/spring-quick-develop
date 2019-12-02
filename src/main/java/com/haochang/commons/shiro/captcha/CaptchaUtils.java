@@ -17,7 +17,6 @@ import com.haochang.commons.utils.IOUtils;
 
 /**
  * 验证码工具类
- * @author L.cm
  */
 class CaptchaUtils {
 	// 默认的验证码大小

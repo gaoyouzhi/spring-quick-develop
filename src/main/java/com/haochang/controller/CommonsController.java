@@ -18,7 +18,6 @@ import net.dreamlu.module.ueditor.UeditorService;
 
 /**
  * 通用的控制器
- * @author L.cm
  *
  */
 @Controller

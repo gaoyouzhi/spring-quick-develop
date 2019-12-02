@@ -1,7 +1,6 @@
 package com.haochang.model;
 
 import com.haochang.commons.utils.JsonUtils;
-import org.hibernate.validator.constraints.NotBlank;
 
 import java.io.Serializable;
 
@@ -18,7 +17,6 @@ public class Role implements Serializable {
 	private Long id;
 
 	/** 角色名 */
-	@NotBlank
 	private String name;
 
 	/** 排序号 */

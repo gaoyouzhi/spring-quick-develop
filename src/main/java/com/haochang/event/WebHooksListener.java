@@ -13,7 +13,6 @@ import com.haochang.commons.utils.RuntimeUtils;
 
 /**
  * WebHook 异步消息
- * @author L.cm
  */
 @Component
 @EnableAsync(mode = AdviceMode.ASPECTJ)

@@ -11,7 +11,6 @@ import org.apache.shiro.util.ByteSource;
 /**
  * shiro密码盐加密所用
  * 此处为了redis缓存实现序列化
- * @author L.cm
  *
  */
 public class ShiroByteSource implements ByteSource, Serializable {

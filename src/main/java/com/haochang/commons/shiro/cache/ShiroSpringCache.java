@@ -31,7 +31,6 @@ import org.springframework.cache.Cache.ValueWrapper;
 
 /**
  * 使用spring-cache作为shiro缓存
- * @author L.cm
  *
  */
 @SuppressWarnings("unchecked")

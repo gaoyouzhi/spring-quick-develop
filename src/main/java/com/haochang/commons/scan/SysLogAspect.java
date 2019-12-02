@@ -26,8 +26,6 @@ import com.haochang.service.ISysLogService;
 
 /**
  * @description：AOP 日志
- * @author：zhixuan.wang
- * @date：2015/10/28 18:04
  */
 @Aspect
 @Component

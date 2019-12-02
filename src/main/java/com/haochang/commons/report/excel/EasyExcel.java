@@ -49,7 +49,6 @@ import com.haochang.commons.utils.StringUtils;
  *
  * 参考：http://git.oschina.net/pyinjava/fastexcel
  * 
- * @author L.cm
  */
 public final class EasyExcel implements Closeable {
 	private static final Logger logger = LogManager.getLogger(EasyExcel.class);

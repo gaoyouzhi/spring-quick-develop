@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git_path="/home/work/git/spring-shiro-training"
+git_path="/home/work/git/spring-quick-develop"
 war_path=$git_path"/target/shiro.war"
 
 pro_path="/home/work/shiro.dreamlu.net"

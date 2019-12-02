@@ -6,10 +6,6 @@ import com.haochang.commons.scan.JacksonObjectMapper;
 
 import java.io.IOException;
 
-/**
- * Created by L.cm
- * Date: 2015-25-12 17:57
- */
 public final class JsonUtils {
     private JsonUtils() {}
 

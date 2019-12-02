@@ -7,7 +7,6 @@ import com.haochang.commons.utils.DigestUtils;
 
 /**
  * shiro密码加密配置
- * @author L.cm
  *
  */
 public class PasswordHash implements InitializingBean {

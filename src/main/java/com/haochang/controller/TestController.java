@@ -13,8 +13,6 @@ import com.haochang.commons.base.BaseController;
 
 /**
  * @description：测试Controller
- * @author：zhixuan.wang
- * @date：2015/10/1 14:51
  */
 @Controller
 @RequestMapping("/test")

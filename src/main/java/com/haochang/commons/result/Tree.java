@@ -7,8 +7,6 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
  * @description：TreeVO
- * @author：zhixuan.wang
- * @date：2015/10/1 14:51
  */
 public class Tree implements java.io.Serializable {
 

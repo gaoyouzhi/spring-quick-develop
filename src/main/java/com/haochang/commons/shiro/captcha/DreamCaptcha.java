@@ -14,8 +14,7 @@ import com.haochang.commons.utils.StringUtils;
 import com.haochang.commons.utils.WebUtils;
 
 /**
- * 如梦验证码
- * @author L.cm
+ * 验证码
  *
  */
 public class DreamCaptcha implements InitializingBean {

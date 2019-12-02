@@ -12,8 +12,6 @@ import com.haochang.commons.result.Result;
  * <p>
  * 文章  前端控制器
  * </p>
- * @author zhixuan.wang
- * @since 2017-04-26
  */
 @Controller
 @RequestMapping("/article")

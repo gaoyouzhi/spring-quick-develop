@@ -4,9 +4,6 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.NotBlank;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.haochang.commons.utils.JsonUtils;
 import com.haochang.model.Role;
@@ -14,16 +11,12 @@ import com.haochang.model.User;
 
 /**
  * @description：UserVo
- * @author：zhixuan.wang
- * @date：2015/10/1 14:51
  */
 public class UserVo implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Long id;
 
-	@NotBlank
-	@Length(min = 4, max = 64)
 	private String loginName;
 
 	private String name;

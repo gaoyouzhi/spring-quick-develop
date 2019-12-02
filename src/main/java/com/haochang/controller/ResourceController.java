@@ -2,8 +2,6 @@ package com.haochang.controller;
 
 import java.util.Date;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -80,7 +78,7 @@ public class ResourceController extends BaseController {
      */
     @RequestMapping("/add")
     @ResponseBody
-    public Object add(@Valid Resource resource) {
+    public Object add(Resource resource) {
         resource.setCreateTime(new Date());
         // 选择菜单时将openMode设置为null
         Integer type = resource.getResourceType();
@@ -131,7 +129,7 @@ public class ResourceController extends BaseController {
      */
     @RequestMapping("/edit")
     @ResponseBody
-    public Object edit(@Valid Resource resource) {
+    public Object edit(Resource resource) {
         resourceService.updateById(resource);
         return renderSuccess("编辑成功！");
     }

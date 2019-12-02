@@ -2,8 +2,6 @@ package com.haochang.controller;
 
 import java.util.List;
 
-import javax.validation.Valid;
-
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -86,7 +84,7 @@ public class RoleController extends BaseController {
      */
     @PostMapping("/add")
     @ResponseBody
-    public Object add(@Valid Role role) {
+    public Object add(Role role) {
         roleService.insert(role);
         return renderSuccess("添加成功！");
     }
@@ -126,7 +124,7 @@ public class RoleController extends BaseController {
      */
     @RequestMapping("/edit")
     @ResponseBody
-    public Object edit(@Valid Role role) {
+    public Object edit(Role role) {
         roleService.updateById(role);
         return renderSuccess("编辑成功！");
     }

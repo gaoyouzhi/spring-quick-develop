@@ -2,7 +2,6 @@ package com.haochang.commons.utils;
 
 /**
  * Bean属性
- * @author L.cm
  */
 public class BeanProperty {
 	private final String name;

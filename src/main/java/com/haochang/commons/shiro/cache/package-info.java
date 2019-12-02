@@ -22,7 +22,6 @@
 
 /**
  * 直接采用spring-cache作为shiro-cache
- * @author L.cm
  *
  */
 package com.haochang.commons.shiro.cache;

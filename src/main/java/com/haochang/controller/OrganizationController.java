@@ -2,8 +2,6 @@ package com.haochang.controller;
 
 import java.util.Date;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -78,7 +76,7 @@ public class OrganizationController extends BaseController {
      */
     @RequestMapping("/add")
     @ResponseBody
-    public Object add(@Valid Organization organization) {
+    public Object add(Organization organization) {
         organization.setCreateTime(new Date());
         organizationService.insert(organization);
         return renderSuccess("添加成功！");
@@ -87,7 +85,6 @@ public class OrganizationController extends BaseController {
     /**
      * 编辑部门页
      *
-     * @param request
      * @param id
      * @return
      */
@@ -106,7 +103,7 @@ public class OrganizationController extends BaseController {
      */
     @RequestMapping("/edit")
     @ResponseBody
-    public Object edit(@Valid Organization organization) {
+    public Object edit(Organization organization) {
         organizationService.updateById(organization);
         return renderSuccess("编辑成功！");
     }
