@@ -16,7 +16,6 @@ import com.haochang.service.impl.TestService;
 /**
  * spring task 定时任务测试，适用于单系统
  * 注意：不适合用于集群
- * @author L.cm
  */
 @Component
 public class TestTask {
